@@ -1,0 +1,113 @@
+The final project is to plan, design, build, and publish a small-scale web site.
+Instead of a Final Exam, you will be developing a Web site consisting at least 7 to 10 web pages written in HTML
+elements.
+The final project will include all HTML elements that the course discussed. They will include, but are not limited to
+internal and external hyperlinks, images, tables, forms, JavaScript, and CSS. The structure and the content of the web
+site are up to the student.
+NOTE:
+
+• The navigation system should function to show the user where they are and where they can go. You should
+plan and show navigation to other parts of the site, even if the links are not active.
+
+• One of these pages should contain a "function" component that uses JavaScript.
+
+• The pages you produce should be "ready for launch". Your pages should be done well and should work
+properly.
+
+Some examples of things you might consider:
+o Well-organized file structure
+o Re-use of CSS, JS, and images
+o Include at least one table that shows tabular data
+o Include at least one form
+o Consistency throughout pages in header, footer, navigation, and potentially other elements
+o Well-chosen titles that stand on their own
+o "meta" keywords and description appropriate for each page
+o Print CSS rules
+o Custom error documents
+
+
+
+The final project is due during the final week of the semester.
+Some basic guidelines as you continue working on your project:
+
+• Use a directory system (Links to an external site.). The site needs to be organized in directories/folders
+according to the nature of relatedness to each other. You should create a new folder for the final project on
+your computer. Back up the folder weekly to a flash drive or online.
+
+• The file name of the default or the home page should be either index.htm or index.html. Be sure to build
+your site in a new folder (directory), and the index page should be inside the folder.
+Check out these sites for inspirations:
+
+• You may check out Web sites offering templates such as Open Source Web Design
+
+• Top HTML Projects with Source Code: https://www.interviewbit.com/blog/html-projects/
+Consider, however, that the work, and the theme, and the content must be your own work – you can “borrow” code but
+will not get full credit if you do not have any content that is unique to you.
+GUIDELINES FOR PLANNING YOUR WEB SITE:
+What will the theme of the Web site be?
+
+• It should be something that you are interested.
+
+• You may get ideas from the Case Problems and Additional Cases that are at the end of each tutorial and at
+the end of the textbook.
+
+• Avoid any offensive or potentially illegal contents.
+Development:
+
+Where to look for information and materials:
+• Talk to people who know about the topic.
+• Search the Internet for the topic you are considering.
+Where to save the collected materials:
+• Create a new folder for documentation and information.
+• Create a new folder for images and other files that you may use.
+• In your browser, create a new bookmark list folder for the Web site project. Consider
+using Delicious (Links to an external site.)or Google Bookmarks (Links to an external site.)?
+If you are creating a Web site for others, e.g., your work or friends:
+• Put them into work right away.
+• Ask their input, such as design, text materials, and images. Provide them a few prototypes on
+computer or even on paper. In this way, they will know exactly what they want, and you can tell
+them, in advance, what they will get at the end. It will reduce a lot of frustration on either side.
+Get images such as logo and their photos a.s.a.p.
+• Organize images in folders.
+Correct Spelling:
+• Avoid any grammar and spelling error.
+• One way to check spelling of your HTML pages is
+1. Copy and paste your text to Microsoft Word or other word processing applications.
+2. Check the spelling; then copy and paste the text back to the Notepad.
+Accessibility
+• Check accessibility. You may use accessibility checker such as WAVE for Google
+Chrome http://wave.webaim.org/extension/ (Links to an external site.)
+
+
+
+
+FINAL PROJECT Grading Rubric
+Web pages constructed with CSS including element, class, and ID selectors for formatting and effects. At least one
+external CSS file.
+(20% Weighting)
+Good page design, color scheme, page layout, accessibility, coherency among all elements.
+(20% Weighting)
+At least two distinctive TABLEs.
+(10% Weighting)
+At least one form using various form elements such as checkboxes and menu items.
+(10% Weighting)
+Navigation within the site. External links.
+(10% Weighting)
+Use of JavaScript and/or jQuery at least in one file/location.
+(10% Weighting)
+Well organized site structure. Image files are in a sub folder. The home page is named as ...
+(10% Weighting)
+Using Multimedia (e.g., YouTube clip)
+(10% Weighting)
+
+
+
+
+Essentials:
+
+    7-10 html pages 
+    2 distinct tables 
+    1 form that uses various form elements 
+    navigation within the website 
+    navigation outside the website 
+    multimedia clip (youtube vid)
