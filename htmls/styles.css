@@ -1,11 +1,110 @@
 
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
+h1{
+    font-size: 45px;
+
+}
+h3{
+    font-size: 22 px;
 }
 
-.wildfire-image {
-    height: 100vh; /* 100% of the viewport height */
-    width: 100vw; /* 100% of the viewport width 
+.homepage-body, ul{
+    background-color:rgb(0,24,41);
+    margin: 0;
+    padding-top: 0;
+}
+
+.earth-animation{
+    transform: translate(450px, 160px);
+    position: absolute;
+    z-index: -1;
+}
+.earth-animation img {
+  width: auto;
+  height: 500px;
+  border-radius: 50%;
+}
+
+.homepage-txt {
+    margin-left: 100px;
+    margin-top: 1px;
+    margin-right: 700px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.learn-more{
+    color: rgb(41, 138, 155)
+}
+
+.lm-button {
+    display: inline-block;
+    padding: 6px 10px;
+    margin-left: 400px;
+    background-color:rgb(41, 138, 155);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace
+
+  }
+
+  .lm-button:hover {
+    background-color: rgb(50, 165, 181);
+  }
+
+.current-stats{
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight:bold;
+}
+  .current-stats a{
+    color:rgb(195, 194, 194);
+    transition: color 0.5s ease;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+   
+
+  }
+  .current-stats a:hover {
+    color:white;
+  }
+
+
+
+
+
+  
+/* nav bar*/
+nav {
+    background-color:rgb(0,24,41);
+    overflow: hidden; 
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    float: right;
+    margin-right: 50px;
+    padding-top: 20px;
+}
+
+nav a {
+    display: block;
+    color:rgb(195, 194, 194);
+    text-align: center;
+    font-size: 22px;
+    font-weight:bold;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    transition: color 0.5s ease;
+}
+nav a:hover {
+    color: white;
+}
