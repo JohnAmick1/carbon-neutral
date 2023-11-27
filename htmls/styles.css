@@ -73,7 +73,24 @@ h3{
     color:white;
   }
 
+/* COUNTRY PICK */
 
+.countrypick-body{
+    background-color: white;
+}
+
+.map-container img {
+    margin-top: 200px;
+    margin-left: 150px;
+    height: 450px;
+    width: 830px;
+
+}
+
+.top-text{
+    color:rgb(0,24,41);
+    font-family: 'Courier New', Courier, monospace;
+}
 
 
 
@@ -108,3 +125,4 @@ nav a {
 nav a:hover {
     color: white;
 }
+
