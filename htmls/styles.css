@@ -1,4 +1,5 @@
 
+/* --------------------------------- INDEX ---------------------------------  */
 h1{
     font-size: 45px;
 
@@ -9,8 +10,6 @@ h3{
 
 .homepage-body, ul{
     background-color:rgb(0,24,41);
-    margin: 0;
-    padding-top: 0;
 }
 
 .earth-animation{
@@ -71,7 +70,7 @@ h3{
 
   }
   .current-stats a:hover {
-    color:white;
+    color:rgb(41, 138, 155);
   }
 
 /* --------------------------------- COUNTRY PICK ---------------------------------  */
@@ -86,9 +85,13 @@ to work on it down the line, but for now everything is going to be absolute on t
     background-color: white;
 }
 
+.map-container{
+    position: absolute;
+}
+
 .map-container img {
-    margin-top: 250px;
-    margin-left: 130px;
+    padding-top: 15px;
+    padding-left: 130px;
     height: 450px;
     width: 830px;
     position: absolute;
@@ -108,45 +111,47 @@ to work on it down the line, but for now everything is going to be absolute on t
 .top-text{
     color:rgb(0,24,41);
     font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 100px;
 }
  /* country icon ids */
  
  #icon-canada {
-    top: 150px; 
+    top: 100px; 
     left: 140px;
 }
 
 #icon-germany {
-    top: 180px;
-    left: 410px;
+    top: 120px;
+    left: 390px;
 }
 #icon-southkorea {
-    top: 230px; 
-    left: 700px;
+    top: 170px; 
+    left: 690px;
 }
 
 #icon-columbia {
-    top: 320px;
+    top: 260px;
     left: 200px;
 }
 #icon-australia {
-    top: 380px;
-    left: 720px;
+    top: 330px;
+    left: 700px;
 }
 
 #icon-denmark {
-    top: 150px;
+    top: 100px;
     left: 425px;
 }
 
 
-
-  
 /*  --------------------------------- NAV BAR  --------------------------------- */
 nav {
-    background-color:rgb(0,24,41);
+    background-color: rgb(50, 165, 181, 0);
     overflow: hidden; 
     height: 50px;
+    border-radius: 10px;
 }
 
 nav ul {
@@ -156,20 +161,20 @@ nav ul {
 nav li {
     float: right;
     margin-right: 50px;
-    padding-top: 20px;
+    padding-top: 0;
 }
 
 nav a {
     display: block;
     color:rgb(195, 194, 194);
     text-align: center;
-    font-size: 22px;
+    font-size: 16px;
     font-weight:bold;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
     transition: color 0.5s ease;
 }
 nav a:hover {
-    color: white;
+    color:rgb(41, 138, 155);
 }
 
