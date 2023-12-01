@@ -111,7 +111,7 @@ Essentials:
     navigation within the website 
     navigation outside the website 
     multimedia clip (youtube vid)
-
+    use of JavaScript and/or jQuery at least in one file/location.
 
 
     Germany, Canada, South Korea, Denmark, Australia, and Colombia
