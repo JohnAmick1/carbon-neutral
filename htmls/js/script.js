@@ -18,13 +18,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Create and append buttons for navigation
     const navButtons = document.createElement('div');
-    navButtons.style.position = 'fixed';
-    navButtons.style.bottom = '20px';
-    navButtons.style.right = '20px';
+    navButtons.style.position = 'absolute';
+    navButtons.style.top = '400px';
+    navButtons.style.right = '300px';
     navButtons.style.zIndex = '1000'; // Ensure buttons are above other elements
     navButtons.innerHTML = `
-        <button id="btnBackward"><</button>
-        <button id="btnForward">></button>
+    <button id="btnBackward" style="width: 60px; height: 40px; background-color: rgb(50,165,181); color: white; font-size: 20px; padding: 10px 20px;"><</button>
+    <button id="btnForward" style="width: 60px; height: 40px; background-color: rgb(50,165,181); color: white; font-size: 20px; padding: 10px 20px;">></button>
     `;
     document.body.appendChild(navButtons);
 

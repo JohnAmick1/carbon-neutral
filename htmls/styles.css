@@ -12,6 +12,10 @@ body {
     letter-spacing: 1px;
 }
 
+hr {
+    width: 80%;
+}
+
 .homepage-body, ul{
     background-color:rgb(0,24,41);
 }
@@ -169,15 +173,23 @@ to work on it down the line, but for now everything is going to be absolute on t
 .country-top-container {
     margin: 0;
     margin-left: 1em;
+    margin-bottom: 2em;
+
 
 }
 .country-top-header {
     font-weight: bold;
     font-size: 44px;
+    color: rgb(50,165,181);
 
 }
 .country-top-text {
     width: 500px;
+    color:rgb(0,24,41);
+    margin-top: 1em;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    background-color:rgb(229, 239, 210)
 
 }
 
@@ -192,8 +204,11 @@ to work on it down the line, but for now everything is going to be absolute on t
     justify-content: center;
     opacity: 0;
     transition: opacity 0.4s ease-in-out;
-    background-color: antiquewhite;
     border-radius: 10px;
+    color:rgb(0,24,41);
+    
+    
+   
 }
 
 .plan-info-section.active {
@@ -207,28 +222,32 @@ to work on it down the line, but for now everything is going to be absolute on t
 .info-section-text-container {
     flex: 1;
     margin-left: 20px;
-    
+    margin-right: 20px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    background-color:rgb(229, 239, 210)
 }
 
 .info-section-image-container img {
     width: 100%;
     height: auto;
     padding-left: 10px;
-    
+    border-radius: 15px;
 }
 
 .countrygif-container {
-    position: fixed;
-    top: 80px; 
-    right: 100px; 
+    position: absolute;
+    top: 140px; 
+    right: 200px; 
+   
 
 }
 
 /*  --------------------------------- CANADA  --------------------------------- */
 
 #canada-gif img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 
