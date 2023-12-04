@@ -105,12 +105,13 @@ Using Multimedia (e.g., YouTube clip)
 
 Essentials:
 
-    7-10 html pages 
+    7-10 html pages DONE 
     2 distinct tables 
     1 form that uses various form elements 
-    navigation within the website 
-    navigation outside the website 
-    multimedia clip (youtube vid)
-    use of JavaScript and/or jQuery at least in one file/location.
+    navigation within the website DONE
+    navigation outside the website DONE
+    multimedia clip (youtube vid) DONE
+    use of JavaScript and/or jQuery at least in one file/location. DONE 
 
 
+    Germany, Canada, South Korea, Denmark, Australia, and Colombia
