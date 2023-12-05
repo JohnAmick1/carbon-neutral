@@ -102,7 +102,7 @@ to work on it down the line, but for now everything is going to be absolute on t
 
 .map-container img {
     padding-top: 15px;
-    padding-left: 130px;
+    padding-left: 100px;
     height: 450px;
     width: 830px;
     position: absolute;
@@ -251,13 +251,146 @@ to work on it down the line, but for now everything is going to be absolute on t
 
 }
 
-/*  --------------------------------- CANADA  --------------------------------- */
-
-#canada-gif img {
+#countryflag-gif img {
     width: 200px;
     height: 200px;
 }
 
+/* --------------------------------- HOW TO HELP ---------------------------------  */
+
+.hth-header {
+    padding: 35px;
+}
+
+.tableone-container{
+    display: flex;
+    align-items: right;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.tabletwo-container{
+    display: flex;
+    align-items: right;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.newsletter-container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.newsletter-container p {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+.one-side-txt {
+    display: flex;
+    width: 600px;
+    height: 200px;
+    margin-top: 20px;
+  
+}
+
+.one-side-txt p2 {
+    margin-top: 30px;
+    transform-origin: center; 
+    transform: rotate(270deg);
+    height: 60px;
+    width: 600px;
+
+}
+
+#ost2{
+    margin-left: 60px ;
+    width: 800px;
+}
+
+.newsletter-container{
+    display: flex;
+    align-items: right;
+    flex-direction: row;
+}
+
+.nlc-form {
+    padding: 1%;
+    margin: 3%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color:rgb(229, 239, 210);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Table 1 */
+
+.table1 {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 20px;
+}
+
+.table1 th, .table1 td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.table1 .bar-container {
+    position: relative;
+    height: 20px;
+}
+
+.table1 .bar {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.table1 .bar-left {
+    right: 50%; 
+    background-color: #8bc34a;
+}
+
+.table1 .bar-right {
+    left: 50%; 
+    background-color: #2196f3;
+}
+
+.tabletwo-container {
+    font-family: Arial, sans-serif;
+    width: 100%; 
+}
+
+.tabletwo-container table {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+.tabletwo-container th, .tabletwo-container td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabletwo-container th {
+    background-color: #f4f4f4;
+}
+
+.tabletwo-container td {
+    background-color: #ffffff;
+}
 
 
 /*  --------------------------------- NAV BAR  --------------------------------- */

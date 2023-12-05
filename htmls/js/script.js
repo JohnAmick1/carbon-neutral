@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     navButtons.style.position = 'absolute';
     navButtons.style.top = '330px';
     navButtons.style.right = '40px';
-    navButtons.style.zIndex = '1000'; // Ensure buttons are above other elements
+    navButtons.style.zIndex = '1000';
     navButtons.innerHTML = `
     <button id="btnBackward" style="width: 60px; height: 40px; background-color: rgb(50,165,181); color: white; font-size: 20px; padding: 10px 20px;"><</button>
     <button id="btnForward" style="width: 60px; height: 40px; background-color: rgb(50,165,181); color: white; font-size: 20px; padding: 10px 20px;">></button>
